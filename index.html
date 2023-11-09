@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale= 1">
+    <meta name="author" content="Ana Fontana">
+    <meta name="description" content="web restaurante">
+    <meta name="keyword" content="restaurant, dinner, drinks, food">
+    <title>ARGENTO | Restaurant</title>
+    <!--Icon-restaurant-->
+    <link rel="icon" type="image/x-ixon" href="icon/arg.png"> 
+    <!--bootstrap--> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--boxicons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!--CSS--> 
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-md">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-toggler">
+            <a class="navbar-brand" href="#">
+              <img src="icon/arg.png" width="50" alt="Logo restaurante">
+            </a>
+            <ul class="navbar-nav d-flex justify-content-center  aling-items-center">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sobre">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#galeria">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.php#reserva" id="btn-reserva">Reserva</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.php#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- seccion hero -->
+    <section class="sect-hero aling-items-stretch">
+        <div class="hero d-flex flex-column justify-content-center aling-items-center">
+            <div class="content">
+                <h5>Bienvenidos a Argento</h5>
+                <h1>La tradicion <span class="arg"> Argentina</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <a href="about.html">Saber mas</a>
+            </div>
+        </div>
+      </section>
+      <!-- seccion about -->
+      <section class="sobre p-5" id="sobre">
+        <div class="container ">
+            <div class="sobre-contenido">
+            </div>
+            <div class="row">
+                <div class="col-md-6 py-3 py-md-0">
+                    <h2 class="titulo">Conoce a ARGENTO</h2>
+                    <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi maxime vero accusamus voluptatibus 
+                    ad numquam eum cupiditate nulla quaerat, officiis perspiciatis cumque dolorum quis similique ipsam magni hic rem ipsum 
+                    quam, perferendis laborum dolor odio enim ratione. Architecto, ea iusto.</p>
+                    <p><img src="icon/circulo.png" class="point" alt="icono-punto"> Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <p><img src="icon/circulo.png" class="point" alt="icono-punto"> dolor aperiam et ab corrupti commodi autem dicta sint nesciunt tempore libero consectetur </p>
+                    <p><img src="icon/circulo.png" class="point" alt="icono-punto"> sunt! Eos excepturi maiores pariatur molestias error quasi, sunt ullam numquam et saepe aliquid.</p>
+                </div>
+                <div class="col-md-6 py-3 py-md-0">
+                    <div class="card">
+                        <img src="imagenes/cena.jpeg" class="card-img-top" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec-menu">
+      <div class="container">
+        <div class="title-menu">
+          <h4 class="mt1"> Menu</h4>
+          <h3 class="mt2"> Un recorrido por nuestra carta</h3>
+        </div>
+        <table class="table table-sm table-borderless">
+          <thead class="table-light">
+            <tr>
+              <th scope="col">Plato</th>
+              <th scope="col">Precio</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Asado</td>
+              <td>$3000</td>
+            </tr>
+            <tr>
+              <td>Ensalada</td>
+              <td>$500</td>
+            </tr>
+            <tr>
+              <td>Pasta</td>
+              <td>$700</td>
+            </tr>
+            <tr>
+              <td>Risotto</td>
+              <td>$600</td>
+            </tr>
+            <tr>
+              <td>Torta chocolate</td>
+              <td>$400</td>
+            </tr>
+            <tr>
+              <td>Vino tinto</td>
+              <td>$1800</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!--Galeria-->
+    <section class="galeria" id="galeria">
+      <div class="container mb-4">
+        <h5 class="display-6 text-center mb-4">Galeria</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, qui. Officia culpa eligendi veritatis totam!.</p>
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <img class="img-fluid mb-4" src="galeria/img1.png" alt="img1">
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+          <img class="img-fluid mb-4" src="galeria/img2.png" alt="img2"> 
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+          <img class="img-fluid mb-4" src="galeria/img3.png" alt="img3"> 
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+          <img  class="img-fluid mb-4" src="galeria/img4.png" alt="img4"> 
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+          <img class="img-fluid mb-4" src="galeria/img5.png" alt="img5"> 
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+          <img class="img-fluid mb-4" src="galeria/img6.png" alt="img6"> 
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+          <img class="img-fluid mb-4" src="galeria/img7.png" alt="img7"> 
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+          <img class="img-fluid mb-4" src="galeria/img8.png" alt="img8"> 
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+          <img class="img-fluid mb-4" src="galeria/img9.png" alt="img9"> 
+          </div>
+        </div>
+      </div>       
+    </section>
+    
+    <!--Footer-->
+    <footer class="footer">
+      <div class="footer-content">
+        <h3>Argento</h3>
+        <h5>Conoce el pais, nuestra cultura y su gastronomia en un solo sitio.</h5>
+      </div>
+      <ul class="socials">
+      <li><a href="#" ><i class='bx bxl-facebook-circle'> Facebook</i></a></li>
+      <li><a href="#"><i class='bx bxl-instagram-alt'> Instagram</i></a></li>
+      <li><a href="#"><i class='bx bxl-twitter'> Twitter</i></a></li>
+      </ul>
+      <div class="footer-bottom">
+        <p>copyright &copy;2023 Argento. Diseñada por <span>Ana Fontana</span></p>
+
+      </div>
+    </footer>
+      
+      
+      
+      
+    <!--JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
